@@ -38,7 +38,7 @@ def main():
     scraper = Scraper(
         input_url=config['INPUT_URL'], 
         output_file=config['OUTPUT_FILE'],  
-        #proxy_url=config['PROXY']
+        proxy_url=config['PROXY']
     )
     scraper.scrape()  
 
